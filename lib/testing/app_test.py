@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+def test_app_py_exists():
+    assert(path.exists("lib/app.py"))
 
 from os import path
 import runpy
